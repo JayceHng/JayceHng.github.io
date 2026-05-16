@@ -1,19 +1,10 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
- # 👇 여기에 원하는 폴더(카테고리)들을 추가하세요
-  - title: "Python 폴더"
-    url: /categories/python/
+  - title: "Write-up"
+    url: /categories/writeup/
 
-  - title: "일상 기록"
-    url: /categories/daily/
+  - title: "Methodology"
+    url: /categories/methodology/
 
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "General"
+    url: /categories/general/
