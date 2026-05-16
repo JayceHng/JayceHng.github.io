@@ -80,12 +80,29 @@
 }
 
 .masthead__menu-item {
-  display: block;
+  display: inline-block;          /* 항목들을 가로로 정렬 */
   list-style-type: none;
   white-space: nowrap;
+  padding: 0 1rem;                /* 좌우 여백 부여 */
+  border-right: 1px solid $border-color; /* 우측 세로 구분선 */
+
+  &:last-child {
+    border-right: none;           /* 마지막 메뉴는 구분선 제거 */
+  }
+
+  a {
+    color: $text-color;
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+      color: $link-color;         /* 마우스 오버 시 강조 색상 */
+      text-decoration: underline;
+    }
+  }
 
   &--lg {
     padding-inline-end: 2em;
     font-weight: 700;
+    border-right: none;           /* 사이트 타이틀/로고 부분은 구분선 제외 */
   }
 }
